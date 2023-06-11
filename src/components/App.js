@@ -12,6 +12,9 @@ const App = () => {
   function handelCloseModal(){
     setShow(false);
   }
+  // window.addEventListener('click', () => {
+  //   setShow(false);
+  // })
 
   return (
     <div>
