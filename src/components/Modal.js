@@ -12,7 +12,7 @@ const Modal = ({ showModal, onClose }) => {
             {
                 showModal &&
 
-                <div className="modal-overlay" onClick={handleClose}>
+                <div className="modal-overlay modal" onClick={handleClose}>
                     <button 
                     onClick={handleClose}
                     className="modal-close">Close</button>
