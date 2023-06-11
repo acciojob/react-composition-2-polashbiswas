@@ -1,1 +1,24 @@
+.showModalBtn{
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 2rem;
+}
+.model-overlay{
+    border: 1px solid black;
+    background-color: lightblue;
+}
 
+.model-close{
+    background-color: brown;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.model-overlay p{
+    margin-left: 1rem;
+}

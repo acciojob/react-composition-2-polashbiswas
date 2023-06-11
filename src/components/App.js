@@ -1,11 +1,25 @@
 
-import React from "react";
+import React,{useState} from "react";
 import './../styles/App.css';
+import Modal from "./Modal";
 
 const App = () => {
+  let [show, setShow] = useState(false);
+
+  function showClick(){
+    setShow(true);
+  }
+  function handelCloseModal(){
+    setShow(false);
+  }
+
   return (
     <div>
-        {/* Do not remove the main div */}
+      <button onClick={showClick} className="showModalBtn">Show Modal</button>
+        <Modal 
+        showModal={show}
+        onClose={handelCloseModal}
+        />
     </div>
   )
 }
